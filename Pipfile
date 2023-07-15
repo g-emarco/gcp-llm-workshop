@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+black = "*"
+beautifulsoup4 = "*"
+tiktoken = "*"
+python-dotenv = "*"
+google-cloud-aiplatform = "*"
+pgvector = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
